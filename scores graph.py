@@ -25,5 +25,6 @@ for stu in data:
     plt.tight_layout()
     plt.plot(avg, marker='o', label='Class Average')
     plt.legend()
+    # plt.savefig(name + '.png')
     plt.show()
     
